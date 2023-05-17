@@ -1,0 +1,292 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #DED6E5;
+}
+
+
+.header {
+    background-color: #DED6E5;
+}
+
+.header_nav {
+    background-color: #a788cc;
+    padding: 0px 8px;
+    height: 32px;
+  }
+  
+  .header_nav a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 30px;
+  }
+  
+  .header_nav li:hover {
+    border-bottom: #502e79 2px solid;
+  }
+  
+  .header_nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 3rem;
+  }
+  
+  .header_nav ul li {
+    margin: 0px 8px;
+    line-height: 30px;
+  }
+
+.header_logo {
+    display: flex;
+    justify-content: center;
+}
+
+.header_logo img{
+    width: 110px;
+    padding: 0.5rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
+    margin: 10px;
+}
+
+.main_ayuda {
+    height: 100%;
+}
+
+.carousel {
+    width: 80%;
+}
+
+.carousel-lug {
+    width: 50%;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.main_resenas {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0.5rem;
+}
+.resenas {
+    display: flex;
+    justify-content: center;
+}
+.col {
+    max-width: 60%;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-title {
+    font-size: 1rem;
+}
+
+.card-text {
+    font-size: 10px;
+    height: 65px;
+}
+
+.card-img-top {
+    width: 35%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-body img {
+    width: 50%;
+    padding: 0.5rem;
+}
+
+.resenas-perf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accordion{
+    padding: .5rem;
+    margin: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.accordion-button{
+    font-weight: bold;
+}
+
+.accordion_info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+
+}
+.accordion_info p {
+    margin-bottom: 0;
+}
+
+.cont_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont_info strong {
+    font-size: 25px;
+}
+
+.mapa {
+    width: 60%;
+    padding: 10px;
+}
+
+.cont_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont_img img, button{
+    width: 60%;
+    margin: 8px;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#a788cc;
+    padding: 0 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 550px;
+}
+
+.card-contenedor {
+    display: flex;
+    align-items: center;
+}
+
+.encabezado, .description {
+    padding: 20px;
+    text-align: center;
+}
+
+.encabezado button {
+    background-color: #502e79;
+}
+
+.encabezado img {
+    width: 60%;
+}
+
+.encabezado-calendar {
+    text-align: center;
+}
+
+.encabezado-calendar img{
+    width: 90%;
+}
+
+
+.footer{
+    background-color: #a788cc;
+}
+
+.footer_cont_redes{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 8px;
+    gap: 10px;
+    
+}
+.footer_redes li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.footer_redes li img{
+    width: 40px;
+}
+
+.footer_redes li p {
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.newsletter{
+    background-color: #502e79;
+    width: 50%;
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.newsletter_art {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter_art p{
+    color: white;
+    margin: 8px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.container_input{
+    text-align: center;
+    padding: 8px;
+}
+
+.container_input input {
+    width: 60%;
+    font-size: 12px;
+}
+
+.footer_text {
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width:768px) {
+    .contenedor{
+        width: 355px;
+    }
+    .card-contenedor {
+        flex-direction: column;
+    }
+
+}
