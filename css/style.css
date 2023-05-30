@@ -1,0 +1,221 @@
+.main_ayuda {
+  height: 100%; }
+  .main_ayuda .accordion {
+    padding: .5rem;
+    margin: .5rem;
+    display: flex;
+    flex-direction: column; }
+    .main_ayuda .accordion .accordion-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .main_ayuda .accordion .accordion-item .accordion-button {
+        font-weight: bold; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif; }
+
+body {
+  background-color: #DED6E5; }
+
+.footer {
+  background-color: #a788cc; }
+  .footer .footer_cont_redes {
+    display: flex;
+    justify-content: center; }
+    .footer .footer_cont_redes .footer_redes {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      list-style: none;
+      padding: 8px;
+      gap: 10px; }
+      .footer .footer_cont_redes .footer_redes li {
+        display: flex;
+        align-items: center;
+        gap: 5px; }
+        .footer .footer_cont_redes .footer_redes li img {
+          width: 40px; }
+        .footer .footer_cont_redes .footer_redes li p {
+          margin-bottom: 0;
+          font-weight: 500; }
+  .footer .newsletter {
+    background-color: #502e79;
+    width: 50%;
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 5px; }
+    .footer .newsletter .newsletter_art {
+      display: flex;
+      flex-direction: column; }
+      .footer .newsletter .newsletter_art p {
+        color: white;
+        margin: 8px;
+        text-align: center;
+        font-weight: 500; }
+      .footer .newsletter .newsletter_art .container_input {
+        text-align: center;
+        padding: 8px; }
+        .footer .newsletter .newsletter_art .container_input input {
+          width: 60%;
+          font-size: 12px; }
+  .footer .footer_text {
+    text-align: center;
+    padding: 10px; }
+
+.header {
+  background-color: #DED6E5; }
+  .header .header_logo {
+    display: flex;
+    justify-content: center; }
+    .header .header_logo img {
+      width: 110px;
+      padding: 0.5rem; }
+  .header .header_nav {
+    background-color: #a788cc;
+    padding: 0px 8px; }
+    .header .header_nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      gap: 3rem; }
+    .header .header_nav ul li {
+      margin: 3px; }
+    .header .header_nav a {
+      color: black;
+      font-weight: 500;
+      text-decoration: none;
+      line-height: 30px;
+      padding: 5px;
+      margin: 3px; }
+    .header .header_nav a:hover {
+      background: #502e79;
+      border-radius: 10px;
+      color: white;
+      transition: 0.3s ease-in; }
+
+@media (max-width: 768px) {
+  .header .header_nav ul {
+    gap: 0.5rem;
+    flex-direction: column;
+    align-items: center; } }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: .5rem;
+  margin: 10px; }
+  .main .carousel {
+    width: 80%; }
+  .main .main_resenas {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0.5rem; }
+  .main .resenas {
+    display: flex;
+    justify-content: center; }
+    .main .resenas .col {
+      max-width: 60%; }
+      .main .resenas .col .card {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .main .resenas .col .card .card-img-top {
+          width: 35%; }
+        .main .resenas .col .card .card-body {
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          .main .resenas .col .card .card-body img {
+            width: 50%;
+            padding: 0.5rem; }
+          .main .resenas .col .card .card-body .card-title {
+            font-size: 1rem; }
+          .main .resenas .col .card .card-body .card-text {
+            font-size: 8px;
+            height: 65px; }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: .5rem;
+  margin: 10px; }
+  .main .contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #a788cc;
+    padding: 0 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 550px; }
+    .main .contenedor .card-contenedor {
+      display: flex;
+      align-items: center; }
+      .main .contenedor .card-contenedor .encabezado {
+        padding: 20px;
+        text-align: center; }
+        .main .contenedor .card-contenedor .encabezado img {
+          width: 60%; }
+        .main .contenedor .card-contenedor .encabezado button {
+          background-color: #502e79;
+          border: #502e79; }
+          .main .contenedor .card-contenedor .encabezado button:hover {
+            background-color: #DED6E5;
+            color: black;
+            transition: 0.3s ease-in; }
+      .main .contenedor .card-contenedor .description {
+        padding: 20px;
+        text-align: center; }
+
+@media (max-width: 768px) {
+  .main .contenedor {
+    width: 100%; }
+    .main .contenedor .card-contenedor {
+      flex-direction: column; }
+      .main .contenedor .card-contenedor .encabezado-calendar img {
+        width: 300px; } }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: .5rem;
+  margin: 10px; }
+  .main .cont_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .main .cont_info strong {
+      font-size: 25px; }
+    .main .cont_info .mapa {
+      width: 60%;
+      padding: 10px; }
+  .main .carousel-lug {
+    width: 50%;
+    padding: 8px;
+    margin-top: 10px; }
+
+.accordion {
+  padding: .5rem;
+  margin: .5rem;
+  display: flex;
+  flex-direction: column; }
+  .accordion .accordion-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .accordion .accordion-item .accordion-button {
+      font-weight: bold; }
+  .accordion .accordion_info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px; }
+    .accordion .accordion_info p {
+      margin-bottom: 0; }
