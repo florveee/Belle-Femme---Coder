@@ -1,0 +1,23 @@
+.accordion{
+    padding: .5rem;
+    margin: .5rem;
+    display: flex;
+    flex-direction: column;
+    .accordion-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .accordion-button{
+            font-weight: bold;
+            }
+        }
+        .accordion_info {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding: 5px;
+            & p{
+                margin-bottom: 0;
+            }
+        }
+    }

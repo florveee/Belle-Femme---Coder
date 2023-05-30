@@ -1,0 +1,56 @@
+.footer{
+    background-color: #a788cc;
+    .footer_cont_redes{
+        display: flex;
+        justify-content: center;
+        .footer_redes{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            list-style: none;
+            padding: 8px;
+            gap: 10px;
+            & li{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                & img{
+                    width: 40px;
+                }
+                & p {
+                    margin-bottom: 0;
+                    font-weight: 500; 
+                }
+            }
+        }
+    }
+    .newsletter{
+        background-color: #502e79;
+        width: 50%;
+        padding: 5px;
+        margin: 0 auto;
+        border-radius: 5px;
+        .newsletter_art {
+            display: flex;
+            flex-direction: column;
+            & p {
+                color: white;
+                margin: 8px;
+                text-align: center;
+                font-weight: 500;
+            }
+            .container_input{
+                text-align: center;
+                padding: 8px;
+                & input {
+                    width: 60%;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .footer_text {
+        text-align: center;
+        padding: 10px;
+    }
+}

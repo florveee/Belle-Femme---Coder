@@ -1,0 +1,24 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
+    margin: 10px;
+    .cont_info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & strong {
+            font-size: 25px;
+        }
+        .mapa {
+            width: 60%;
+            padding: 10px;
+        }
+    }
+    .carousel-lug {
+        width: 50%;
+        padding: 8px;
+        margin-top: 10px;
+    }
+}
